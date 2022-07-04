@@ -64,15 +64,15 @@ namespace homework_lesson_2
         {
             if(a > b)
             {
-                Swap(ref a, ref b);
+                //Swap(ref a, ref b);
             }
             if(a > c)
             {
-                Swap(ref a, ref c);
+               // Swap(ref a, ref c);
             }
             if(b > c)
             {
-                Swap(ref b, ref c);
+               // Swap(ref b, ref c);
             }
 
             return (a, b, c);
@@ -220,7 +220,7 @@ namespace homework_lesson_2
         }
         static void Main(string[] args)
         {
-            Task5();
+            
         }
     }
 }

@@ -5,12 +5,14 @@ VisualStudioVersion = 16.0.32602.291
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExempleTest", "ExempleTest\ExempleTest.csproj", "{FC55D73A-B112-42DA-AF65-00F6F42D7010}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_lesson_2", "homework_lesson_2\homework_lesson_2.csproj", "{690E0D8F-4549-4A7B-AAC0-D58BF1CC7479}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "homework_lesson_2", "homework_lesson_2\homework_lesson_2.csproj", "{690E0D8F-4549-4A7B-AAC0-D58BF1CC7479}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{30E5D6E9-C6A3-41BB-A4A8-FF7D86420C09}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_lesson_3", "homework_lesson_3\homework_lesson_3.csproj", "{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +28,16 @@ Global
 		{690E0D8F-4549-4A7B-AAC0-D58BF1CC7479}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690E0D8F-4549-4A7B-AAC0-D58BF1CC7479}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690E0D8F-4549-4A7B-AAC0-D58BF1CC7479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F14FA85D-4E52-4CE6-8C9E-4EEAE0DCB9C4} = {30E5D6E9-C6A3-41BB-A4A8-FF7D86420C09}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {036CA4C6-6520-4652-8E1B-8E07F235A23B}

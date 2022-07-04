@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "homework_lesson_3": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "environmentVariables": {},
+      "distributionName": ""
+    }
+  }
+}
