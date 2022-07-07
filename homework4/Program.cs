@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace homework4
 {
@@ -11,10 +10,10 @@ namespace homework4
             Random random = new Random();
             int[] array = new int[size];
 
-            for (int l = 0; l < size; l++)
+            for (int i = 0; i < size; i++)
             {
-                array[l] = random.Next(1, 9);
-                Console.WriteLine(array[l]);
+                array[i] = random.Next(1, 9);
+                Console.WriteLine(array[i]);
             }
         }
 
