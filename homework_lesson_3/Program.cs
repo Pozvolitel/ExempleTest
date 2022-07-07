@@ -5,9 +5,9 @@ namespace homework_lesson_3
     class Program
     {
         //1. The user enters 2 numbers (A and B). Raise the number A to the power of B.
-        static int RaiseTheNumber(int a, int b)
+        static int RaiseTheNumber(int a)
         {            
-            return Convert.ToInt32(Math.Pow(a, b));
+            return Convert.ToInt32(Math.Pow(a, 3));
         }
 
         //3. The user enters 1 number (A). Find the number of positive integers whose square is less than A.
@@ -134,7 +134,7 @@ namespace homework_lesson_3
                
         static void Main(string[] args)
         {
-             
+            Console.WriteLine(RaiseTheNumber(2));
         }
     }
 }
